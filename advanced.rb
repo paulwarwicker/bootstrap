@@ -1,5 +1,6 @@
 # chocolatey packages latest versions with default options
-packages =  %w[ 7zip agentransack ant cpu-z curl cygwin dbgview docker fiddler4 emacs64 filezilla golang hashcheck irfanview jdk8 jenkins logstash nodejs-lts notepadplusplus nvm putty rdcman soapui sourcetree sysinternals tortoisehg visualstudiocode vlc windbg winmerge winscp wireshark xming ]
+# add vagrant
+packages =  %w[ vagrant 7zip agentransack ant cpu-z curl cygwin dbgview docker fiddler4 emacs64 filezilla golang hashcheck irfanview jdk8 jenkins logstash nodejs-lts notepadplusplus nvm putty rdcman soapui sourcetree sysinternals tortoisehg visualstudiocode vlc windbg winmerge winscp wireshark xming ]
 packages.each do |pkg|
   chocolatey_package pkg
 end
